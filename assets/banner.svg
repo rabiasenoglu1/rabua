@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Rabia Şenoğlu, Adli Bilişim Mühendisliği">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16213a"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="900" height="280" rx="16"/></clipPath>
+    <style>
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .sans{font-family:'Segoe UI',Arial,sans-serif}
+      @keyframes drift{to{stroke-dashoffset:-240}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes scan{0%{transform:translateY(-20px)}100%{transform:translateY(300px)}}
+      .ring{fill:none;stroke:#5ad1e6;stroke-width:1.6;stroke-linecap:round;animation:drift 14s linear infinite}
+      .cur{animation:blink 1s steps(1) infinite}
+      .scan{animation:scan 6s linear infinite}
+    </style>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="900" height="280" fill="url(#bg)"/>
+    <!-- grid -->
+    <g stroke="#ffffff" stroke-opacity=".035">
+      <path d="M0 40H900M0 80H900M0 120H900M0 160H900M0 200H900M0 240H900"/>
+      <path d="M60 0V280M120 0V280M180 0V280M240 0V280M300 0V280M360 0V280M420 0V280M480 0V280M540 0V280M600 0V280M660 0V280M720 0V280M780 0V280M840 0V280"/>
+    </g>
+    <!-- fingerprint -->
+    <g transform="translate(770 140)" opacity=".55">
+      <ellipse class="ring" rx="14" ry="20" stroke-dasharray="40 14"/>
+      <ellipse class="ring" rx="26" ry="36" stroke-dasharray="70 12 20 10"/>
+      <ellipse class="ring" rx="38" ry="52" stroke-dasharray="90 16 30 12"/>
+      <ellipse class="ring" rx="50" ry="68" stroke-dasharray="120 18 40 14"/>
+      <ellipse class="ring" rx="62" ry="84" stroke-dasharray="150 20 50 16"/>
+      <ellipse class="ring" rx="74" ry="100" stroke-dasharray="180 22 60 18"/>
+      <ellipse class="ring" rx="86" ry="116" stroke-dasharray="210 24 70 20"/>
+    </g>
+    <!-- scan line -->
+    <rect class="scan" x="0" y="0" width="900" height="2" fill="#f5a524" opacity=".25"/>
+
+    <!-- left text -->
+    <text x="48" y="58" class="mono" font-size="13" fill="#f5a524" letter-spacing="3">DOSYA // DİJİTAL İZ İNCELEMESİ</text>
+    <text x="46" y="128" class="sans" font-size="58" font-weight="700" fill="#ffffff">Rabia Şenoğlu</text>
+    <rect x="48" y="146" width="64" height="4" rx="2" fill="#f5a524"/>
+    <text x="48" y="182" class="sans" font-size="20" fill="#cfd8e6">Adli Bilişim Mühendisliği · Fırat Üniversitesi</text>
+    <text x="48" y="226" class="mono" font-size="16" fill="#5ad1e6">&gt; her işlem bir iz bırakır<tspan class="cur" fill="#f5a524">_</tspan></text>
+
+    <!-- hex strip -->
+    <g class="mono" font-size="12">
+      <text x="48" y="262" fill="#6b7a96">0x0000</text>
+      <text x="104" y="262" fill="#6b7a96">52 41 42 49 41 20 53 45 4E 4F 47 4C 55</text>
+      <text x="414" y="262" fill="#6b7a96">|</text>
+      <text x="424" y="262" fill="#f5a524">RABIA SENOGLU</text>
+      <text x="514" y="262" fill="#6b7a96">|</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="899" height="279" rx="16" fill="none" stroke="#2a3a5c"/>
+</svg>

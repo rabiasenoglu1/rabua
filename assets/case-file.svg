@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-label="Vaka dosyası: Rabia Şenoğlu hakkında özet">
+  <defs>
+    <style>
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .sans{font-family:'Segoe UI',Arial,sans-serif}
+      .k{font-size:12px;fill:#f5a524;letter-spacing:2px}
+      .v{font-size:17px;fill:#e8eef8}
+      @keyframes stamp{0%{opacity:0;transform:rotate(-12deg) scale(1.6)}60%{opacity:1;transform:rotate(-12deg) scale(.96)}100%{opacity:.9;transform:rotate(-12deg) scale(1)}}
+      .stamp{transform-origin:770px 90px;animation:stamp .8s ease-out .3s both}
+    </style>
+  </defs>
+  <rect width="900" height="330" rx="16" fill="#0b1220"/>
+  <rect x=".5" y=".5" width="899" height="329" rx="16" fill="none" stroke="#2a3a5c"/>
+  <!-- header bar -->
+  <path d="M0 16a16 16 0 0 1 16-16h868a16 16 0 0 1 16 16v30H0z" fill="#16213a"/>
+  <circle cx="26" cy="23" r="5" fill="#f5a524"/><circle cx="46" cy="23" r="5" fill="#5ad1e6"/><circle cx="66" cy="23" r="5" fill="#6b7a96"/>
+  <text x="450" y="28" text-anchor="middle" class="mono" font-size="13" fill="#9fb0cc">vaka_dosyasi / rabia_senoglu.rpt</text>
+
+  <!-- fields -->
+  <g class="sans">
+    <text x="48" y="92" class="k mono">İNCELENEN</text>
+    <text x="48" y="116" class="v">Rabia Şenoğlu</text>
+
+    <text x="48" y="156" class="k mono">ALAN</text>
+    <text x="48" y="180" class="v">Adli Bilişim Mühendisliği, lisans (2023–2027)</text>
+
+    <text x="48" y="220" class="k mono">YÖNTEM</text>
+    <text x="48" y="244" class="v">Önce anlar, sonra çözer. Tahmin değil, kanıt.</text>
+
+    <text x="48" y="284" class="k mono">DURUM</text>
+    <text x="48" y="308" class="v">Öğreniyor, paylaşıyor, tasarlıyor.</text>
+
+    <text x="500" y="156" class="k mono">İLGİ ALANI</text>
+    <text x="500" y="180" class="v">Ağ trafiği · Disk imajı</text>
+    <text x="500" y="204" class="v">Siber tehdit istihbaratı</text>
+
+    <text x="500" y="244" class="k mono">DİLLER</text>
+    <text x="500" y="268" class="v">Python · C · C++ · SQL</text>
+  </g>
+
+  <!-- stamp -->
+  <g class="stamp">
+    <rect x="690" y="62" width="160" height="56" rx="6" fill="none" stroke="#e74c3c" stroke-width="3"/>
+    <rect x="696" y="68" width="148" height="44" rx="3" fill="none" stroke="#e74c3c" stroke-width="1"/>
+    <text x="770" y="98" text-anchor="middle" class="mono" font-size="22" font-weight="700" fill="#e74c3c" letter-spacing="3">İNCELEMEDE</text>
+  </g>
+</svg>

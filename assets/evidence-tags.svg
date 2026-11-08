@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-label="Araç ve beceri etiketleri, seviyeleriyle">
+  <defs>
+    <style>
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .sans{font-family:'Segoe UI',Arial,sans-serif}
+      .name{font-size:19px;font-weight:700;fill:#0b1220}
+      .cat{font-size:11px;fill:#4a5670;letter-spacing:2px}
+      .lvl{font-size:10px;fill:#4a5670}
+      .grp{font-size:13px;fill:#f5a524;letter-spacing:3px}
+      .on{fill:#0b1220}
+      .off{fill:#c9d1df}
+      @keyframes sway{0%,100%{transform:rotate(-1.2deg)}50%{transform:rotate(1.2deg)}}
+      .tag{animation:sway 5s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 0}
+      .d2{animation-delay:-1.2s}.d3{animation-delay:-2.4s}.d4{animation-delay:-3.6s}
+    </style>
+    <g id="tag">
+      <path d="M0 14L14 0H160a8 8 0 0 1 8 8V62a8 8 0 0 1-8 8H14L0 56z" fill="#f4f1e8"/>
+      <circle cx="14" cy="28" r="4" fill="#0b1220"/>
+    </g>
+  </defs>
+  <rect width="900" height="360" rx="16" fill="#0b1220"/>
+  <rect x=".5" y=".5" width="899" height="359" rx="16" fill="none" stroke="#2a3a5c"/>
+
+  <!-- group labels -->
+  <text x="40" y="44" class="grp mono">PROGRAMLAMA &amp; VERİ</text>
+  <text x="40" y="164" class="grp mono">SİSTEM</text>
+  <text x="480" y="164" class="grp mono">ANALİZ</text>
+
+  <!-- row 1 -->
+  <g transform="translate(40 60)"><g class="tag"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">Python</text><text x="30" y="46" class="cat mono">DİL</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="on"/><rect x="44" width="18" height="5" rx="2" class="off"/></g>
+    <text x="98" y="60" class="lvl mono">ORTA</text></g></g>
+
+  <g transform="translate(240 60)"><g class="tag d2"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">C</text><text x="30" y="46" class="cat mono">DİL</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="on"/><rect x="44" width="18" height="5" rx="2" class="off"/></g>
+    <text x="98" y="60" class="lvl mono">ORTA</text></g></g>
+
+  <g transform="translate(440 60)"><g class="tag d3"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">C++</text><text x="30" y="46" class="cat mono">DİL</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="on"/><rect x="44" width="18" height="5" rx="2" class="off"/></g>
+    <text x="98" y="60" class="lvl mono">ORTA</text></g></g>
+
+  <g transform="translate(640 60)"><g class="tag d4"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">SQL</text><text x="30" y="46" class="cat mono">VERİTABANI</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="on"/><rect x="44" width="18" height="5" rx="2" class="off"/></g>
+    <text x="98" y="60" class="lvl mono">ORTA</text></g></g>
+
+  <!-- row 2 -->
+  <g transform="translate(40 180)"><g class="tag d2"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">Windows</text><text x="30" y="46" class="cat mono">İŞLETİM SİSTEMİ</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="on"/><rect x="44" width="18" height="5" rx="2" class="on"/></g>
+    <text x="98" y="60" class="lvl mono">İLERİ</text></g></g>
+
+  <g transform="translate(240 180)"><g class="tag d3"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">Linux</text><text x="30" y="46" class="cat mono">İŞLETİM SİSTEMİ</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="on"/><rect x="44" width="18" height="5" rx="2" class="off"/></g>
+    <text x="98" y="60" class="lvl mono">ORTA</text></g></g>
+
+  <g transform="translate(480 180)"><g class="tag"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">Wireshark</text><text x="30" y="46" class="cat mono">AĞ ANALİZİ</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="off"/><rect x="44" width="18" height="5" rx="2" class="off"/></g>
+    <text x="98" y="60" class="lvl mono">BAŞLANGIÇ</text></g></g>
+
+  <g transform="translate(680 180)"><g class="tag d4"><use href="#tag"/>
+    <text x="30" y="30" class="name sans">Autopsy</text><text x="30" y="46" class="cat mono">ADLİ BİLİŞİM</text>
+    <g transform="translate(30 54)"><rect width="18" height="5" rx="2" class="on"/><rect x="22" width="18" height="5" rx="2" class="off"/><rect x="44" width="18" height="5" rx="2" class="off"/></g>
+    <text x="98" y="60" class="lvl mono">BAŞLANGIÇ</text></g></g>
+
+  <text x="450" y="322" text-anchor="middle" class="mono" font-size="12" fill="#6b7a96">▮▮▮ ileri   ▮▮▯ orta   ▮▯▯ başlangıç · seviyeler olduğu gibi yazıldı</text>
+</svg>
