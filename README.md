@@ -4,25 +4,26 @@
 
 <br/>
 
-## 🔎 Hakkımda
+## Hakkımda
 
 Dijital dünyada her işlem bir iz bırakır: bir log satırı, bir ağ paketi, bir dosya zaman damgası. Adli bilişim mühendisliği okurken bu izleri okumayı, birbirine bağlamayı ve anlamlı bir hikâyeye çevirmeyi öğreniyorum. Siber güvenlik tarafı ise o hikâyenin bir daha yazılmasını engellemek isteyen yanım.
 
 <img src="assets/case-file.svg" alt="Vaka dosyası" width="100%"/>
 
-## 🧰 Araç Çantası
+## Araç Çantası
 
 Her etiket bir araç ve onunla şu anki seviyem. Düzgün bir delil gibi, olduğu gibi kayda geçirdim.
 
 <img src="assets/evidence-tags.svg" alt="Araçlar ve seviyeler" width="100%"/>
 
-## 🗂️ Olay Günlüğü
+## Olay Günlüğü
 
 <img src="assets/custody-log.svg" alt="Eğitim ve topluluk günlüğü" width="100%"/>
 
 **Staj:** Petek Yazılım (stajyer)
+Infinitum It (stajyer)
 
-## 🎓 Sertifikalar
+## Sertifikalar
 
 <table>
 <tr>
@@ -30,14 +31,13 @@ Her etiket bir araç ve onunla şu anki seviyem. Düzgün bir delil gibi, olduğ
 
 **🛡️ Siber güvenlik**
 - Siber Güvenliğe Giriş · *BTK*
-- İletişim ve Network Yönetimi · *BTK*
 - Siber Güvenlik 101 · *Siber Kulüpler Birliği*
 - Siber Tehdit İstihbaratı: İleri Yaklaşımlar ve Uygulamalar · *Siber Kulüpler Birliği*
 
 </td>
 <td valign="top" width="50%">
 
-**💻 Dijital okuryazarlık** · *Turkcell Geleceği Yazanlar*
+**Dijital okuryazarlık** · *Turkcell Geleceği Yazanlar*
 - Word
 - Sosyal Medya Kullanımı
 - Mobil Uygulama Kullanımı
@@ -47,10 +47,10 @@ Her etiket bir araç ve onunla şu anki seviyem. Düzgün bir delil gibi, olduğ
 </tr>
 </table>
 
-## 🧭 Hedefim
+## Hedefim
 
 Adli bilişim ve siber tehdit istihbaratında derinleşmek; olay sonrası analizden savunmaya uzanan bir hat kurabilen bir mühendis olmak.
 
 <div align="center">
-<sub>🌱 Bu dosya ben öğrendikçe güncellenir.</sub>
+<sub>Bu dosya ben öğrendikçe güncellenir.</sub>
 </div>
