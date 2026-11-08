@@ -29,7 +29,7 @@ Infinitum It (stajyer)
 <tr>
 <td valign="top" width="50%">
 
-**🛡️ Siber güvenlik**
+**Siber güvenlik**
 - Siber Güvenliğe Giriş · *BTK*
 - Siber Güvenlik 101 · *Siber Kulüpler Birliği*
 - Siber Tehdit İstihbaratı: İleri Yaklaşımlar ve Uygulamalar · *Siber Kulüpler Birliği*
